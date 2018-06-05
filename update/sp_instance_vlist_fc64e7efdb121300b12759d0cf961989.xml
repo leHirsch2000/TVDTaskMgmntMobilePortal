@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>info</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter table="task">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state&lt;3<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="&lt;" or="false" value="3"/>
+        </filter>
+        <glyph>th-list</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">781427efdb121300b12759d0cf9619eb</sp_column>
+        <sp_page display_value="task_management">4f13e3afdb121300b12759d0cf9619a6</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-01 08:22:51</sys_created_on>
+        <sys_id>fc64e7efdb121300b12759d0cf961989</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TVDTaskMgmntMobilePortal" source="x_225606_tvdtaskmg">c68f9b63db121300b12759d0cf961978</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TVDTaskMgmntMobilePortal">c68f9b63db121300b12759d0cf961978</sys_scope>
+        <sys_update_name>sp_instance_vlist_fc64e7efdb121300b12759d0cf961989</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-01 08:25:50</sys_updated_on>
+        <table>task</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "short_description,due_date",
+		"displayValue": "short_description,due_date"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"view": {
+		"value": "6c0d7162b92013006517ce7df7ee4673",
+		"displayValue": "Mobile"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc64e7efdb121300b12759d0cf961989"/>
+</record_update>
